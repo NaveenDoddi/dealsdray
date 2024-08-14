@@ -1,0 +1,158 @@
+table{
+  border-collapse: collapse;
+
+}
+td,th{
+  border: 1px solid black;
+  padding: 8px;
+  text-align: right;
+}
+
+/* dash board navbar */
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 700;
+  padding: 10px
+}
+
+nav > a{
+  text-decoration: none;
+  color: black;
+
+}
+
+
+/* LoginPage.css */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.login-box {
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-box input {
+  width: 95%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-box button:hover {
+  background-color: #0056b3;
+}
+ /* end loginpage */
+
+ /* signup page */
+
+.create-employee-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+}
+
+
+.create-employee-box {
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+
+.create-employee-box h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.create-employee-box input[type="text"],
+.create-employee-box input[type="password"],
+.create-employee-box input[type="email"],
+.create-employee-box input[type="file"],
+.create-employee-box select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.gender-select label,
+.course-select label {
+  margin-right: 15px;
+  color: #333;
+}
+
+.gender-select input,
+.course-select input {
+  margin-right: 5px;
+}
+
+.create-employee-box input[type="file"] {
+  padding: 5px;
+  border: none;
+  background-color: #f7f7f7;
+}
+
+/* Submit button */
+.create-employee-box button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Hover effect on submit button */
+.create-employee-box button:hover {
+  background-color: #0056b3;
+}
+
+/* end signup page */

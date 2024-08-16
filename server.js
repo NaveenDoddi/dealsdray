@@ -19,6 +19,7 @@ app.use(express.static(path.join('public')));
 //     res.sendFile(path.join('public', 'index.html'));
 // });
 
+
 const url = "mongodb+srv://naveendoddi:zQTrjUrwyKXeIEZ2@Dealsdray.jbdpwef.mongodb.net/Dealsdray?retryWrites=true&w=majority&appName=Dealsdray";
 
 mongoose.connect(url).then(

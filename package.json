@@ -20,11 +20,11 @@
     "start:server": "node server.js",
     "start:react": "react-scripts start",
     "start": "concurrently \"npm run start:server\" \"npm run start:react\"",
+    "predeploy" : "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -47,5 +47,5 @@
   "devDependencies": {
     "gh-pages": "^6.1.1"
   },
-  "homepage": "http://naveendoddi.github.io/dealsdray"
+  "homepage": "http://naveendoddi.github.io/"
 }
